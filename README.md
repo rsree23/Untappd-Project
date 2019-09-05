@@ -1,6 +1,6 @@
 This README discusses the purpose of (1) ActivityFeed.py and (2) DrinkersInfo.py
 
-#Overview
+# Overview
 The purpose of this project is to conduct social listening on the subject of craft beer,
 so that insights can be gained in regard to consumers of any particular company's brand.
 The insights will help with marketing the product.
@@ -9,7 +9,7 @@ This project involves social listening, through which market research is done by
 This is more beneficial than surveying the consumers, as individuals tend to view
 social media as an outlet for more honest reflections and reviews.
 
-#Information about Untappd
+# Information about Untappd
 The social media scraped here is Untappd, a social network that allows users to share beers
 that they drink, when they drink them, how they are drinking them.
 These are called "check-ins."
@@ -18,7 +18,7 @@ A brewery can have a page on Untappd, and users' check-ins are provided in an ac
 Each user also has his/her own activity feed on his/her own profile page.
 Individual beers and locations have their own feeds as well.
 
-#File 1: ActivityFeed.py
+# File 1: ActivityFeed.py
 ActivityFeed.py accomplishes the task of getting profile page links to each user who checks-in to a brewery's activity feed.
 It then goes to each user's own feed and scrapes all of their checkins since they joined Untappd.
 It accomplishes this using the selenium library in Python, which creates a fake web browsing session using a web driver.
@@ -38,7 +38,7 @@ as Untappd.com will get suspicious after many requests and can block one's IP ad
 will automatically slow down farther, in an attempt to prevent IP address blocking.
 If one's IP address is blocked, it will unblock a few days later.
 
-#File 2: DrinkersInfo
+# File 2: DrinkersInfo
 DrinkersInfo.py has a seemingly identical structure to ActivityFeed.py, but once on each user's page, the programs differ.
 Each user also has a "Beer History," which displays  in an organized list every beer the user has checked-in,
 providing the beer's style, ABV, IBU, and other data.
@@ -47,7 +47,7 @@ DrinkersInfo.py scrapes this part of a user's profile: their "Beer History".
 
 For both, scraped data is exported to a .csv file.
 
-#Other Important Notes
+# Other Important Notes
 Jupyter notebooks that I used for analysis of the data are not included due to confidentiality of the brewery.
 They import the .csv files that the other two Python files create, and uses pandas and matplotlib Python libraries
 to do data analysis/visualization.
