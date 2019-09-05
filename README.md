@@ -38,7 +38,7 @@ as Untappd.com will get suspicious after many requests and can block one's IP ad
 will automatically slow down farther, in an attempt to prevent IP address blocking.
 If one's IP address is blocked, it will unblock a few days later.
 
-# File 2: DrinkersInfo
+# File 2: DrinkersInfo.py
 DrinkersInfo.py has a seemingly identical structure to ActivityFeed.py, but once on each user's page, the programs differ.
 Each user also has a "Beer History," which displays  in an organized list every beer the user has checked-in,
 providing the beer's style, ABV, IBU, and other data.
