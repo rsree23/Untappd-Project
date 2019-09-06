@@ -58,7 +58,7 @@ An API key is needed, and one must register with Google Maps API (for the geocod
 Map creation is done via folium.
 
 ******* The two scraping Python files can scrape any brewery. Just change the URL in the first .get()
-request to do similar analysis on a client's competitors. In addition, any individual beer can be scraped in
+request to do similar analysis on a brewery's competitors. In addition, any individual beer can be scraped in
 the same way, just make the get() request begin at that beer's Untappd page, not a brewery's page (see files for more information).
 
 ******* Here are some of the analyses I did with the data, but I cannot include due to confidentiality:  
@@ -69,7 +69,7 @@ Distribution of the most frequent hours of the day
 Most popular locations  
 Distribution of user ratings  
 ******* Other exploratory analysis I would have liked to do include the following:  
-Most popular beer styles among multiple breweries,  
+Most popular beer styles among multiple breweries  
 Most popular mediums (can, bottle, growler) based on time of day (or month)  
 Most popular beer styles based on time of day (or month)  
 Most popular mediums based on beer style  
